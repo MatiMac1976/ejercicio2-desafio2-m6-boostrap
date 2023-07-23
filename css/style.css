@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 900;
+    font-size: 62pt;
+    color: #04146c;
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16pt;
+    color: #04146c;
+}
+
+p span {
+    font-style: italic;
+}
+
+.boton {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14pt;
+    background-color: #04146c !important;
+    font-variant: small-caps !important;
+    width: 150px;
+    height: 60px;
+}
+
+.custom-image {
+    width: 80%;
+}
+
+
+
+@media (max-width: 768px) {
+    .custom-image {
+        width: 100%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .d-flex {
+        justify-content: center;
+    }
+}
